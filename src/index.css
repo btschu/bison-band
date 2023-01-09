@@ -7,14 +7,15 @@
   --gradient-bar: linear-gradient(103.22deg, #ffffff -13.86%, #c7a877 99.55%);
   
   --color-bg: #040707;
+  --color-bg-light: whitesmoke;
   --color-secondary-bg : #383b3b;
   --color-text: #ffffff;
   --color-subtext: #c7a877;
-  --color-bg-light: whitesmoke;
 }
 
 html {
   box-sizing: border-box;
+  /* scroll-behavior: smooth; */
 }
 
 body {
