@@ -1,12 +1,15 @@
 import React from 'react';
 import Event from '../event/Event'
+
 import './upcoming-events.css';
 
 const UpcomingEvents = () => {
     return (
-        <div id="upcoming-events" className="main-container">
+        <div className="upcoming-events-container">
             <h1>Upcoming Events</h1>
-            <Event />
+            <div id="upcoming-events" className="card-container">
+                <Event />
+            </div>
         </div>
     );
 };

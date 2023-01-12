@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 import logo from "../../assets/logo.png";
 import "./navbar.css";
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [isOpen, setOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
-  //navbar scroll changeBackground function
-  const changeBackground = () => {
+  const changeNavbarBackground = () => {
     if (window.scrollY >= 66) {
       setNavbar(true);
     } else {
@@ -18,13 +16,16 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    changeBackground();
-    // adding the event when scroll change background
-    window.addEventListener("scroll", changeBackground);
+    changeNavbarBackground();
+    window.addEventListener("scroll", changeNavbarBackground);
   });
 
   return (
-    <div className={navbar ? "navbar navbar-scrolled sticky-top" : "navbar sticky-top"}>
+    <div
+      className={
+        navbar ? "navbar navbar-scrolled sticky-top" : "navbar sticky-top"
+      }
+    >
       <div className="navbar-container">
         <div className="navbar-logo">
           <a href="#hero">
@@ -45,34 +46,20 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-menu">
-        {toggleMenu ? (
-          <RiCloseLine
-            color="#ffffff"
-            size={27}
-            onClick={() => setToggleMenu(false)}
-          />
-        ) : (
-          <RiMenu3Line
-            color="#ffffff"
-            size={27}
-            onClick={() => setToggleMenu(true)}
-          />
-        )}
-        {toggleMenu && (
-          <div className="navbar-menu-container scale-up-center">
-            <div className="navbar-menu-container-links">
-              <p>
-                <a href="#hero">Home</a>
-              </p>
-              <p>
-                <a href="#upcoming-events">Upcoming Events</a>
-              </p>
-              {/* <p><a href="#about">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p> */}
-            </div>
-          </div>
-        )}
+        <button
+          onClick={() => setOpen(!isOpen)}
+          className={`hamburger-button ${isOpen ? "open" : "close"}`}
+        />
+        <div className={`panel ${isOpen ? "open" : "close"}`}>
+          <ul>
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#upcoming-events">Upcoming Events</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
