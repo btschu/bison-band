@@ -15,7 +15,7 @@ const Event = () => {
     >
       <div
         key={event.id}
-        className="event-container"
+        className="event-container animate pop-delay-{event.id}"
         data-aos="zoom-in"
         data-aos-delay="100"
         // value={new Date(event.dateTime)}

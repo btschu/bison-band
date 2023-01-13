@@ -5,7 +5,7 @@ import './upcoming-events.css';
 
 const UpcomingEvents = () => {
     return (
-        <div className="upcoming-events-container">
+        <div className="upcoming-events-container gradient__bg">
             <h1>Upcoming Events</h1>
             <div id="upcoming-events" className="card-container">
                 <Event />
