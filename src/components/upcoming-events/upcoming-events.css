@@ -1,29 +1,22 @@
-/* .upcoming-events-container {
-  background: var(--color-bg)
-} */
-
 .upcoming-events-container h1 {
   padding: 2rem 0 0 4rem;
-  color: var(--color-subtext)
+  color: var(--color-subtext);
 }
 
 .card-container {
-    margin: 0 8rem;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  margin: 0 12rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 950px) {
+  .upcoming-events-container h1 {
+    padding: 2rem 0 0 2rem;
   }
 
-  @media screen and (max-width: 950px) {
-    .upcoming-events-container h1 {
-      padding: 2rem 0 0 2rem;
-    }
-
-    .card-container {
-      margin: 0 2rem;
-    }
+  .card-container {
+    margin: 0 2rem;
   }
-
- 
-  
+}
