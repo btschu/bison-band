@@ -1,22 +1,15 @@
 import React from "react";
 
-
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
-
 import "./event.css";
 
+const Event = (event) => {
+  const events = event.event;
 
-
-
-  
-   const Event = (event) => {
-    
-    const events = event.event
-
-    const eventItem = events.map((event) => (
-      <div>
+  const eventItem = events.map((event) => (
+    <div>
       <time
         id="event-data"
         className="event-date"
@@ -56,9 +49,9 @@ import "./event.css";
           </div>
         </div>
       </time>
-      </div>
-    ));
-    return <div id="card">{eventItem}</div>;
-  };
-  
-  export default Event;
+    </div>
+  ));
+  return <div id="card">{eventItem}</div>;
+};
+
+export default Event;

@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/bison-band/static/css/main.b6cad77c.css",
-    "main.js": "/bison-band/static/js/main.9f817017.js",
+    "main.css": "/bison-band/static/css/main.48362bef.css",
+    "main.js": "/bison-band/static/js/main.1a97ef5e.js",
     "static/js/787.6f734a07.chunk.js": "/bison-band/static/js/787.6f734a07.chunk.js",
+    "static/media/hero-bg.jpeg": "/bison-band/static/media/hero-bg.cd4d6304dee381bd9af7.jpeg",
     "static/media/logo.png": "/bison-band/static/media/logo.707b20468e6d17bf17f1.png",
     "index.html": "/bison-band/index.html",
-    "main.b6cad77c.css.map": "/bison-band/static/css/main.b6cad77c.css.map",
-    "main.9f817017.js.map": "/bison-band/static/js/main.9f817017.js.map",
+    "main.48362bef.css.map": "/bison-band/static/css/main.48362bef.css.map",
+    "main.1a97ef5e.js.map": "/bison-band/static/js/main.1a97ef5e.js.map",
     "787.6f734a07.chunk.js.map": "/bison-band/static/js/787.6f734a07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6cad77c.css",
-    "static/js/main.9f817017.js"
+    "static/css/main.48362bef.css",
+    "static/js/main.1a97ef5e.js"
   ]
 }
