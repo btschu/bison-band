@@ -1,6 +1,5 @@
 export const eventData = [
   {
-    // todo ***change this information for all new events
     id: 0,
     dateTime: "11/17/2022",
     eventName: "All-City Jazz Concert",
@@ -11,7 +10,6 @@ export const eventData = [
     weekday: 2022,
   },
   {
-    // todo ***change this information for all new events
     id: 1,
     dateTime: "11/22/2022",
     eventName: "SE District Clinic Concert",
@@ -22,7 +20,6 @@ export const eventData = [
     weekday: 2022,
   },
   {
-    // todo ***change this information for all new events
     id: 2,
     dateTime: "12/08/2022",
     eventName: "South Triad Winter Concert",
@@ -33,7 +30,6 @@ export const eventData = [
     weekday: 2022,
   },
   {
-    // todo ***change this information for all new events
     id: 3,
     dateTime: "1/15/2023",
     eventName: "All-State Band",
@@ -44,7 +40,6 @@ export const eventData = [
     weekday: 2022,
   },
   {
-    // todo ***change this information for all new events
     id: 4,
     dateTime: "02/6/2023",
     eventName: "Casper Jazz Festival",
@@ -55,7 +50,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 5,
     dateTime: "02/16/2023",
     eventName: "All-Northwest",
@@ -66,7 +60,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 6,
     dateTime: "02/21/2023",
     eventName: "Northwest Jazz Festival",
@@ -77,7 +70,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 7,
     dateTime: "02/27/2023",
     eventName: "UW Jazz Festival",
@@ -88,7 +80,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 8,
     dateTime: "04/06/2023",
     eventName: "Spring Concert",
@@ -99,7 +90,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 9,
     dateTime: "04/20/2023",
     eventName: "UNC Jazz Festival",
@@ -110,7 +100,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 10,
     dateTime: "04/24/2023",
     eventName: "SE District Festival",
@@ -121,7 +110,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 11,
     dateTime: "05/02/2023",
     eventName: "All-City Band",
@@ -132,7 +120,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 12,
     dateTime: "05/09/2023",
     eventName: "Final Concert",
@@ -143,7 +130,6 @@ export const eventData = [
     weekday: 2023,
   },
   {
-    // todo ***change this information for all new events
     id: 13,
     dateTime: "05/18/2023",
     eventName: "Band Banquet",

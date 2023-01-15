@@ -5,25 +5,25 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 import "./event.css";
 
-const Event = (event) => {
+// added monthValue here and on line 26
+const Event = (event, {monthValue}) => {
   const events = event.event;
 
   const eventItem = events.map((event) => (
-    <div>
+    <div key={event.id}>
       <time
         id="event-data"
         className="event-date"
         dateTime={new Date(event.dateTime)}
       >
         <div
-          key={event.id}
           className="event-container animate pop-delay-{event.id}"
           data-aos="zoom-in"
           data-aos-delay="100"
           // value={new Date(event.dateTime)}
         >
           <div className="date-container">
-            <span className="month">{event.month}</span>
+            <span className="month">{monthValue}</span>
             <span className="day">{event.day}</span>
             <span className="weekday">{event.weekday}</span>
           </div>
