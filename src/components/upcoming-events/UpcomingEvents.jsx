@@ -31,49 +31,50 @@ const UpcomingEvents = () => {
     events.forEach((e) => {
       let monthView = new Date(e.dateTime).toLocaleString("default", { month: "long" });      
       console.log(monthView);
+      console.log(fullMonth);
       fullMonth.push(monthView)
     });
   };
 
-  const dayValue = function (events) {
-    events.forEach((e) => {
-      const getDay = new Date(e.dateTime);
-      // console.log(getDay.getDate());
-      return getDay.getDate();
-    });
-  };
+//   const dayValue = function (events) {
+//     events.forEach((e) => {
+//       const getDay = new Date(e.dateTime);
+//       // console.log(getDay.getDate());
+//       return getDay.getDate();
+//     });
+//   };
 
-  const weekdayValue = function (events) {
-    events.forEach((e) => {
-      const dayOfWeek = new Date(e.dateTime).getDay();
-      return isNaN(dayOfWeek)
-        ? null
-        : [
-            "Sunday",
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-          ][dayOfWeek];
-    });
-  };
+//   const weekdayValue = function (events) {
+//     events.forEach((e) => {
+//       const dayOfWeek = new Date(e.dateTime).getDay();
+//       return isNaN(dayOfWeek)
+//         ? null
+//         : [
+//             "Sunday",
+//             "Monday",
+//             "Tuesday",
+//             "Wednesday",
+//             "Thursday",
+//             "Friday",
+//             "Saturday",
+//           ][dayOfWeek];
+//     });
+//   };
 
   //call my functions
   unixFactory(eventDataCopy);
   findUpcomingDates(updatedEventObjects);
 //   these are the three I added
-  monthValue(fullMonth);
-  dayValue(updatedEventObjects);
-  weekdayValue(updatedEventObjects);
+//   monthValue(eventDataCopy);
+//   dayValue(updatedEventObjects);
+//   weekdayValue(updatedEventObjects);
 
   return (
     <div className="upcoming-events-container gradient__bg">
       <h1>Upcoming Events</h1>
       <div id="upcoming-events" className="card-container">
         {upcomingDates.map((event) => (
-          <Event event={event} key={event.id} monthValue={monthValue} /> //added monthValue as a prop to try it out
+          <Event event={event} key={event.id} monthValue={monthValue(eventDataCopy)} /> //added monthValue as a prop to try it out
         ))}
       </div>
     </div>
