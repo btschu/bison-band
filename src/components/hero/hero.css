@@ -19,52 +19,26 @@
   }
   
   #hero h1 {
-    margin: 0;
+    margin: 0 0 0 8rem;
     font-size: 4rem;
     font-weight: 700;
+    z-index: 1;
+
   }
   
-  #hero h1 span {
-    color: #c6b58e;
-  }
-  
-  #hero h2 {
-    color: #eee;
-    margin-bottom: 10px 0 0 0;
-    font-size: 22px;
-  }
-  
-  @media (min-width: 1024px) {
+  @media (max-width: 1000px) {
     #hero {
-      background-attachment: fixed;
+      justify-content: center;
+    }
+    #hero h1 {
+      margin: 0;
+      font-size: 3rem;
     }
   }
-  
-  @media (max-width: 992px) {
-    #hero {
-      margin-top: -75px;
-    }
-  }
-  
-  @media (max-height: 500px) {
-    #hero {
-      height: auto;
-    }
-  
-    #hero .container {
-      padding-top: 130px;
-      padding-bottom: 60px;
-    }
-  }
-  
+
   @media (max-width: 768px) {
     #hero h1 {
-      font-size: 28px;
-      line-height: 36px;
-    }
-  
-    #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
+      margin: 0;
+      font-size: 2rem;
     }
   }
