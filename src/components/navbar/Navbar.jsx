@@ -53,10 +53,10 @@ const Navbar = () => {
         <div className={`panel ${isOpen ? "open" : "close"}`}>
           <ul>
             <li>
-              <a href="#hero">Home</a>
+              <a href="#hero" onClick={() => setOpen(!isOpen)}>Home</a>
             </li>
             <li>
-              <a href="#upcoming-events">Upcoming Events</a>
+              <a href="#upcoming-events" onClick={() => setOpen(!isOpen)}>Upcoming Events</a>
             </li>
           </ul>
         </div>

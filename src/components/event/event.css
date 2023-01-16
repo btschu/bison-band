@@ -37,7 +37,7 @@
 .event-container .date-container .month {
   font-size: 1.2rem;
   color: black;
-  padding: 3px 0;
+  padding: 4px 0;
   font-weight: 600;
 }
 
@@ -93,7 +93,7 @@
 
   .event-container .date-container .month {
     font-size: .8rem;
-    font-weight: 900;
+    padding: 3px 0;
   }
   
   .event-container .date-container .day {

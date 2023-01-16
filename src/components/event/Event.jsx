@@ -6,7 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import "./event.css";
 
 // added monthValue here and on line 26
-const Event = (event, {monthValue}) => {
+const Event = (event, key) => {
   const events = event.event;
 
   const eventItem = events.map((event) => (
@@ -23,7 +23,7 @@ const Event = (event, {monthValue}) => {
           // value={new Date(event.dateTime)}
         >
           <div className="date-container">
-            <span className="month">{event.monthValue}</span>
+            <span className="month">{event.month}</span>
             <span className="day">{event.day}</span>
             <span className="weekday">{event.weekday}</span>
           </div>

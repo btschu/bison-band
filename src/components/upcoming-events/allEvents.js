@@ -5,9 +5,6 @@ export const eventData = [
     eventName: "All-City Jazz Concert",
     time: "7:00PM",
     location: "South High Auditorium",
-    month: "November",
-    day: 17,
-    weekday: 2022,
   },
   {
     id: 1,
@@ -15,9 +12,6 @@ export const eventData = [
     eventName: "SE District Clinic Concert",
     time: "4:00PM",
     location: "East High Auditorium",
-    month: "November",
-    day: 22,
-    weekday: 2022,
   },
   {
     id: 2,
@@ -25,9 +19,6 @@ export const eventData = [
     eventName: "South Triad Winter Concert",
     time: "7:00PM",
     location: "Storey Gym",
-    month: "December",
-    day: 8,
-    weekday: 2022,
   },
   {
     id: 3,
@@ -35,9 +26,6 @@ export const eventData = [
     eventName: "All-State Band",
     time: "January 15 - 18",
     location: "Sheridan, WY",
-    month: "January",
-    day: 15,
-    weekday: 2022,
   },
   {
     id: 4,
@@ -45,9 +33,6 @@ export const eventData = [
     eventName: "Casper Jazz Festival",
     time: "February 6 - 8",
     location: "Casper, WY",
-    month: "February",
-    day: 6,
-    weekday: 2023,
   },
   {
     id: 5,
@@ -55,9 +40,6 @@ export const eventData = [
     eventName: "All-Northwest",
     time: "February 16 - 19",
     location: "Bellevue, WA",
-    month: "February",
-    day: 16,
-    weekday: 2023,
   },
   {
     id: 6,
@@ -65,9 +47,6 @@ export const eventData = [
     eventName: "Northwest Jazz Festival",
     time: "All Day",
     location: "Powell, WY",
-    month: "February",
-    day: 21,
-    weekday: 2023,
   },
   {
     id: 7,
@@ -75,9 +54,6 @@ export const eventData = [
     eventName: "UW Jazz Festival",
     time: "February 27 - 28",
     location: "Laramie, WY",
-    month: "February",
-    day: 27,
-    weekday: 2023,
   },
   {
     id: 8,
@@ -85,9 +61,6 @@ export const eventData = [
     eventName: "Spring Concert",
     time: "7:00PM",
     location: "South High Auditorium",
-    month: "April",
-    day: 6,
-    weekday: 2023,
   },
   {
     id: 9,
@@ -95,9 +68,6 @@ export const eventData = [
     eventName: "UNC Jazz Festival",
     time: "April 20 - 21",
     location: "Greeley, CO",
-    month: "April",
-    day: 20,
-    weekday: 2023,
   },
   {
     id: 10,
@@ -105,9 +75,6 @@ export const eventData = [
     eventName: "SE District Festival",
     time: "April 24 - 25",
     location: "Cheyenne, WY",
-    month: "April",
-    day: 24,
-    weekday: 2023,
   },
   {
     id: 11,
@@ -115,9 +82,6 @@ export const eventData = [
     eventName: "All-City Band",
     time: "7:00PM",
     location: "Storey Gym",
-    month: "May",
-    day: 2,
-    weekday: 2023,
   },
   {
     id: 12,
@@ -125,9 +89,6 @@ export const eventData = [
     eventName: "Final Concert",
     time: "7:00PM",
     location: "South High Auditorium",
-    month: "May",
-    day: 9,
-    weekday: 2023,
   },
   {
     id: 13,
@@ -135,8 +96,5 @@ export const eventData = [
     eventName: "Band Banquet",
     time: "6:00PM",
     location: "South High School",
-    month: "May",
-    day: 18,
-    weekday: 2023,
   },
 ];
