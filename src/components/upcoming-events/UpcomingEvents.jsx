@@ -68,11 +68,14 @@ const UpcomingEvents = () => {
   weekdayValue(updatedEventObjects);
 
   return (
-    <div className="upcoming-events-container gradient__bg">
+    <div className="upcoming-events-container">
+      <div className="parallax">
+        {/* <h1>Test</h1> */}
+      </div>
       <h1 className="gradient-text">Upcoming Events</h1>
       <div id="upcoming-events" className="card-container">
         {upcomingDates.map((event) => (
-          <Event event={event} key={event.id * 10} />
+          <Event event={event} key={event.id * 500} />
         ))}
       </div>
     </div>

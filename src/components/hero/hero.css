@@ -6,6 +6,7 @@
     position: relative;
     margin-top: -73px;
     z-index: 0;
+    background-attachment: fixed;
   }
   
   #hero:before {

@@ -37,6 +37,9 @@ const Navbar = () => {
             <a href="#hero">Home</a>
           </p>
           <p>
+            <a href="#about">About</a>
+          </p>
+          <p>
             <a href="#upcoming-events">Upcoming Events</a>
           </p>
           {/* <p><a href="#about">Open AI</a></p>
@@ -54,6 +57,9 @@ const Navbar = () => {
           <ul>
             <li>
               <a href="#hero" onClick={() => setOpen(!isOpen)}>Home</a>
+            </li>
+            <li>
+              <a href="#about" onClick={() => setOpen(!isOpen)}>About</a>
             </li>
             <li>
               <a href="#upcoming-events" onClick={() => setOpen(!isOpen)}>Upcoming Events</a>
