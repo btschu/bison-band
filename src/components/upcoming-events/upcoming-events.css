@@ -38,3 +38,8 @@
     margin: 0 2rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .upcoming-events-container .parallax {
+    background-attachment: initial;
+  }   
+}
