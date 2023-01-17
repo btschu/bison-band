@@ -3,7 +3,7 @@
 }
 
 .upcoming-events-container .parallax {
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -41,5 +41,6 @@
 @media screen and (max-width: 768px) {
   .upcoming-events-container .parallax {
     background-attachment: initial;
+    height: 100vh;
   }   
 }

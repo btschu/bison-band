@@ -24,7 +24,11 @@
     font-size: 4rem;
     font-weight: 700;
     z-index: 1;
+    color: var(--color-text);
+  }
 
+  #hero h1 span {
+    color: var(--color-subtext);
   }
   
   @media (max-width: 1000px) {

@@ -57,6 +57,10 @@
     bottom: 10px;
   }
   
+  .about .content h1 {
+    color: var(--color-subtext);
+  }
+
   .about .content p {
     color: var(--color-text);
   }

@@ -19,7 +19,7 @@ const About = () => {
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h1 className="gradient-text">About Us</h1>
+            <h1 className="">About Us</h1>
             <p class="fst-italic">
               South High School is the newest of four High Schools in Cheyenne,
               WY. The school opened in 2010 and the band has received several
