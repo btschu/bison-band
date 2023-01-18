@@ -12,7 +12,7 @@ const UpcomingEvents = () => {
   const findUpcomingDates = (events) => {
     const today = Math.floor(new Date().getTime() / 1000);
     let upcomingEvents = events.filter((e) => e.unixTimeStamp > today);
-    upcomingDates.push(upcomingEvents);
+    upcomingDates.push(upcomingEvents.slice(0, 5));
   };
 
   //build a factory that creates unix timestamps
@@ -68,16 +68,14 @@ const UpcomingEvents = () => {
   weekdayValue(updatedEventObjects);
 
   return (
-    <div className="upcoming-events-container">
-      <div className="parallax">
-        {/* <h1>Test</h1> */}
-      </div>
-      <h1 className="">Upcoming Events</h1>
-      <div id="upcoming-events" className="card-container">
+    <div className="upcoming-events-container" id="upcoming-events">
+      <h1>Upcoming Events</h1>
+      <div className="card-container">
         {upcomingDates.map((event) => (
           <Event event={event} key={event.id * 500} />
         ))}
       </div>
+      <div className="parallax"/>
     </div>
   );
 };

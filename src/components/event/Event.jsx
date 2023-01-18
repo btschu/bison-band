@@ -6,7 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import "./event.css";
 
 // added monthValue here and on line 26
-const Event = (event, key) => {
+const Event = (event) => {
   const events = event.event;
 
   const eventItem = events.map((event) => (

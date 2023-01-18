@@ -17,8 +17,8 @@
 }
 
 .upcoming-events-container h1 {
-  padding: 2rem 0 0 4rem;
   color: var(--color-subtext);
+  padding: 2rem 0 2rem 4rem;
 }
 
 .card-container {
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 950px) {
   .upcoming-events-container h1 {
-    padding: 2rem 0 0 2rem;
+    padding: 2rem 0 2rem 2rem;
   }
 
   .card-container {
@@ -40,7 +40,8 @@
 }
 @media screen and (max-width: 768px) {
   .upcoming-events-container .parallax {
-    background-attachment: initial;
-    height: 100vh;
+    /* background-attachment: scroll;
+    height: 100vh; */
+    display: none;
   }   
 }

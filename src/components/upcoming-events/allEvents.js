@@ -27,13 +27,13 @@ export const eventData = [
     time: "January 15 - 18",
     location: "Sheridan, WY",
   },
-  {
-    id: 4,
-    dateTime: "02/6/2023",
-    eventName: "Casper Jazz Festival",
-    time: "February 6 - 8",
-    location: "Casper, WY",
-  },
+  // {
+  //   id: 4,
+  //   dateTime: "02/6/2023",
+  //   eventName: "Casper Jazz Festival",
+  //   time: "February 6 - 8",
+  //   location: "Casper, WY",
+  // },
   {
     id: 5,
     dateTime: "02/16/2023",

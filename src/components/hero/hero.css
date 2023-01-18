@@ -1,9 +1,15 @@
 #hero {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    align-items:stretch;
+    padding: 9rem 8rem 0 8rem;
     width: 100%;
     height: 100vh;
     background: url("../../assets/hero-bg.jpeg") top center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
     margin-top: -73px;
     z-index: 0;
     background-attachment: fixed;
@@ -20,7 +26,7 @@
   }
   
   #hero h1 {
-    margin: 0 0 0 8rem;
+    /* margin: 0 0 0 8rem; */
     font-size: 4rem;
     font-weight: 700;
     z-index: 1;
@@ -29,6 +35,38 @@
 
   #hero h1 span {
     color: var(--color-subtext);
+    z-index: 1;
+  }
+
+  /* .about .content h1 {
+    color: var(--color-subtext);
+  } */
+
+  #hero p {
+    color: var(--color-text);
+    z-index: 1;
+    margin-bottom: 0;
+  }
+  
+  #hero ul {
+    list-style: none;
+    padding: 0;
+    color: var(--color-text);
+    z-index: 1;
+    margin: 1rem 0 0 3rem;
+  }
+  
+  #hero svg {
+    font-size: 2rem;
+    padding-right: 4px;
+    color: #c6b58e;
+    z-index: 1;
+  }
+
+  #hero ul li {
+    font-size: 1rem;
+    z-index: 1;
+    text-align: start;
   }
   
   @media (max-width: 1000px) {
