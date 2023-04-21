@@ -42,9 +42,6 @@ const Navbar = () => {
           <p>
             <a href="#upcoming-events">Upcoming Events</a>
           </p>
-          {/* <p><a href="#about">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p> */}
         </div>
       </div>
 

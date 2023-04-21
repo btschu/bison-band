@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
+// import { FaCheckCircle } from "react-icons/fa";
 import "./hero.css";
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
       <h1 className="">
         South High <span>Bison Band</span>
       </h1>
-      <p className="fst-italic">
+      {/* <p className="fst-italic">
         South High School is the newest of four High Schools in Cheyenne, WY.
         The school opened in 2010 and the band has received several honors
         since.
@@ -28,7 +28,7 @@ const Hero = () => {
           groups such as: All-National Honor Band, All-Northwest Honor Band,
           All-State Honor Band, and All-State Jazz Ensembles
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };
